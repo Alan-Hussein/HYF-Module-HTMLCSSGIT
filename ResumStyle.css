@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* I used this solution to make left side for sidebar only and put everything after 22% from left (I searched about it)*/
+div:not(#Side-Bar){
+    position: relative;
+    left: 22%;
+}
+#Side-Bar{
+height: 100%;
+width: 22%;
+background-color: rgb(3, 10, 10);
+position: fixed ;
+z-index: 100;
+
+}
+.SideBar-items li{
+    color: white;
+    margin-top: 30px;
+    margin-left: -20px;
+    display: block;
+    font-size: 20px;
+   
+    
+    
+}
+a:link{
+    text-decoration:none ;
+}
+.SideBar-items i{
+   margin-right: 10px;
+}
+
+.MyPhoto{
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    margin: 20px auto 5px auto;
+    
+}
+.Name{
+    color: white;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 20px;
+    margin: 10px 8px;
+}
+.Social-media-Icons{
+    margin-left: -100px;
+}
+.Social-media-Icons a{
+    display: inline-block;
+	height: 20px;
+	width: 20px;
+	background-color: rgba(255,255,255,0.2);
+	padding: 10px;
+	border-radius: 50%;
+	color: #ffffff;
+    position: relative;
+}
+.Social-media-Icons a i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+
+
+#Home{
+    width: 78%;
+  height: 700px;
+    background-image: url(Photo1.jpg);
+    background-size: cover;
+    position: fixed;
+}
+.Name2{
+    color: black;
+    font-weight: bold ;
+    font-family: cursive ;
+    font-size: 50px;
+   position: absolute;
+   top: 430px;
+   left: 230px;
+}
+.Description{
+    color: rgb(21, 38, 117);
+    font-weight: bold ;
+    font-family: cursive ;
+    font-size: 50px;
+   position: absolute;
+   top: 500px;
+   left: 250px;
+
+}
+#About{
+    width: 78%;
+
+}
+#About h1{
+    font-size: 45px;
+    color:rgb(21, 38, 117) ;
+    margin: 25px;
+    font-family: cursive;
+}
+#About p{
+    margin: 40px;
+    font-size: 20px;
+}
+.MyPhoto2{
+    width: 300px;
+    height: 500px;
+    margin: 25px;
+    position: absolute;
+    right: 0;
+
+}
+.Information{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -550px;
+    font-size: 20px;
+
+
+}
+ul{
+    list-style: none;
+}
+.Information-Col{
+width: 25%;
+margin-top: 180px;
+
+}
+.Information-Col span{
+    color: blueviolet;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+
