@@ -4,6 +4,7 @@ A:
 $ mkdir Folder  //to make a folder 
 $ attrib +h Folder // to hide a folder
 $ attrib -h Folder //to unhide a folder 
+$ ls // to list the files (with hidden files)
 
 
 2)How do I create multiple nested directories, like /c/Users/myusername/these/folders/are/just/for/fun?
